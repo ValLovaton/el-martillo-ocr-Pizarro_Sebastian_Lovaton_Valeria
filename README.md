@@ -3,23 +3,6 @@ Digitalización y análisis con Google Gemini
 
 Este repositorio contiene el proceso de digitalización, extracción de texto y análisis estructurado de una página del periódico histórico peruano *El Martillo*, publicado en Chiclayo entre 1903 y 1919. El propósito es transformar una imagen escaneada antigua en datos estructurados (CSV) mediante técnicas modernas de reconocimiento óptico de caracteres (OCR) basadas en modelos de inteligencia artificial.
 
-## Estructura del repositorio
-
-el-martillo-ocr/
-│
-├── data/
-│ └── el_martillo/
-│ ├── page_01.png.jpg ← Imagen utilizada para el OCR
-│ └── page_01_structured.csv ← Dataset generado a partir del OCR
-│
-├── notebooks/
-│ └── el_martillo_ocr.ipynb ← Notebook principal (OCR + limpieza + análisis)
-│
-├── outputs/
-│ └── report.md ← Reporte breve del trabajo realizado
-│
-└── README.md
-
 ## Metodología general
 
 1. **Carga de la imagen:**  
